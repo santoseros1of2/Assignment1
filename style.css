@@ -1,0 +1,280 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  cursor:;
+}
+
+.head {
+  background: transparent;
+  height: 70px;
+}
+.head .fixed_logo {
+  display: none;
+}
+
+#carousel {
+  background: cover/center;
+  background-image: url("mainvisuals_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  margin: 0px;
+  width: 100%;
+  height: 632px;
+  padding-top: 215px;
+  padding-left: 173px;
+}
+
+.navbarHeader {
+  background-color: white;
+  color: black;
+}
+
+.navbarHeader .top_logo {
+  display: none;
+}
+.navbarHeader .fixed_logo {
+  display: block;
+}
+.navbarHeader .nav-item {
+  color: black;
+}
+nav {
+  width: 95%;
+  margin: 25px 40px 0px 40px;
+  height: 40px;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar-brand {
+  max-width: 78px;
+  height: auto;
+}
+
+.navbar-nav {
+  text-align: left;
+}
+
+.nav-item {
+  font-weight: bold;
+  font-size: 13px;
+  font-style: Noto Sans JP;
+  letter-spacing: 0px;
+  color: #ffffff;
+  letter-spacing: 0px;
+}
+
+.nav-item:hover {
+  color: #ffffff;
+}
+
+#btn {
+  background: #00afcc 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+  width: 117px;
+  text-align: center;
+}
+
+#carouselHeading {
+  font: normal normal normal 54px/61px A P-OTF A1Gothic Std;
+  letter-spacing: -2.7px;
+  color: #ffffff;
+  text-shadow: 0px 3px 10px #00000029;
+  opacity: 1;
+}
+
+#carouselbtn {
+  background: #00afcc 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #00afcc;
+  border-radius: 100px;
+  width: 384px;
+  height: 60px;
+  opacity: 1;
+  border: none;
+  font: normal normal bold 14px/20px Noto Sans JP;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+span.service-extra {
+  font-size: 2rem;
+  padding: 10px 0;
+  letter-spacing: 1.28px !important;
+}
+
+.heading-style1 {
+  color: #000000;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 2.25rem;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.heading-style1 span {
+  display: block;
+  line-height: 1;
+  color: #232323;
+}
+
+.mont,
+.heading-style1 span.mont,
+p.bottom-text,
+p.rs,
+.mont-40 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+.heading-style1 span.mont {
+  color: #676767;
+  letter-spacing: 0.56px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.blurb img {
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+#greeting {
+  background: url(greeting_pc.jpg) no-repeat;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+}
+
+.sec-pad {
+  padding-bottom: 80px;
+}
+
+p.heading-style1 span {
+  letter-spacing: 0.56px;
+}
+
+.heading-style1 span {
+  display: block;
+  line-height: 1;
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.container2 {
+  max-width: 1000px;
+}
+.overlay {
+  z-index: 2;
+}
+
+.white,
+.dark .heading-style1 span,
+.dark p {
+  color: #fff !important;
+}
+
+.btn-white {
+  background: #fff;
+  color: #000;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  z-index: 1;
+  border: 2px solid #fff;
+}
+.btn {
+  width: 384px;
+  max-width: 100%;
+  height: 60px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  align-items: center;
+  display: flex;
+}
+
+.span1 {
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: x-large;
+  text-align: center;
+  font: normal normal 900 14px/37px Noto Sans JP;
+  letter-spacing: 0.56px;
+  color: #232323;
+}
+
+.span2 {
+  color: black;
+  font-weight: 900;
+  text-align: center;
+  font: normal normal 900 32px/37px Noto Sans JP;
+  letter-spacing: 1.28px;
+  color: #232323;
+}
+
+.span3 {
+}
+
+.img1 {
+  border-radius: 8px;
+  opacity: 0.47px;
+}
+
+.overlay-text p {
+    font-size: 2rem;
+    letter-spacing: 1.28px;
+}
+
+
+/* .challenge-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.47);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: 400;
+} */
+
+/* top: 1853px;
+left: 425px;
+width: 430px;
+height: 62px;
+text-align: center;
+letter-spacing: NaNpx;
+color: #232323;
+opacity: 1; */
